@@ -1,4 +1,4 @@
-# scince2010-docker
+# Scince2010-docker
 
 Create a docker image to download the SCINCE 2010 shapefiles. For more info see this [post](https://blog.diegovalle.net/shapefiles-of-mexico-agebs-manzanas-etc-es.html)
 
