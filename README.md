@@ -4,11 +4,11 @@ Create a docker image to download the SCINCE 2010 shapefiles. For more info see 
 
 
 ```
-docker pull diegovalle/scince2010
+docker pull diegovalle/scince2010-docker
 mkdir -p /tmp/scince2010/shps
-docker run -v /tmp/scince2010/shps:/shapefiles/shps -i -t diegovalle/scince2010
+docker run -v /tmp/scince2010/shps:/shapefiles/shps -i -t diegovalle/scince2010-docker
 ```
 
-and run ./download.sh
+and run ./download.sh. After downloading the shapefiles will be available in /tmp/scince2010/shps
 
 
